@@ -11,7 +11,7 @@ const SiteIndex = ({ section }) =>
             <span className="second">JS</span>
           </div>
 
-          <h1 className="front-header">Learn Webpack and React</h1>
+          <h1 className="front-header">Learn React</h1>
           <h3 className="front-motto">
             SurviveJS will take you from apprentice to master
           </h3>
@@ -19,34 +19,16 @@ const SiteIndex = ({ section }) =>
           <div className="front-button-wrapper">
             <a
               className="btn btn--buy-main"
-              href="https://leanpub.com/survivejs-react"
+              href="https://leanpub.com/survivejs-react-es"
             >
               Become a React master
             </a>
-            <span className="buy-or">or</span>
-            <a
-              className="btn btn--buy-main"
-              href="https://leanpub.com/survivejs-webpack"
-            >
-              Become a Webpack master
-            </a>
-            <span className="buy-or">
-              (or{" "}
-              <a href="https://leanpub.com/b/survivejs-webpack-react">both</a>!)
-            </span>
           </div>
 
           <div className="front-button-wrapper">
-            <div className="read-free-note">
-              There are also free versions available!
-            </div>
             <span className="read-free">
               <a href="/react/introduction/">
                 Read the free version of the React book
-              </a>
-              <span> or </span>
-              <a href="/webpack/preface/">
-                read the free version of the webpack book
               </a>
             </span>
           </div>
@@ -66,6 +48,6 @@ const SiteIndex = ({ section }) =>
     </div>
   </div>;
 SiteIndex.description =
-  "Want to learn webpack or React? Get started for free and build a Kanban board by following the example project.";
+  "Want to learn React? Get started for free and build a Kanban board by following the example project.";
 
 export default SiteIndex;
