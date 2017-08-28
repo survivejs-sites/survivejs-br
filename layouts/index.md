@@ -3,51 +3,51 @@
 <p>
   ![React logo|200|200|react-image](assets/img/react.png)
 
-  Facebook's [React](https://facebook.github.io/react/) powers an increasing amount of sites. There is a good reason for this. It simplifies frontend development greatly.
+  La librería [React](https://facebook.github.io/react/) de Facebook da vida a una enorme cantidad de sitios que va en aumento. Hay una buena razón para ello. Simplifica enormemente el desarrollo del frontend.
 </p>
 
-Combined with [webpack](https://webpack.github.io/), a bundling tool, you have a powerful frontend development environment in your hands. The SurviveJS effort consists of two books that help you to adopt these technologies. They are available as [a bundle](https://leanpub.com/b/survivejs-webpack-react).
+Combinado con [webpack](https://webpack.github.io/), una herramienta de empaquetado, tendrás un poderoso entorno de desarrollo de frontend en tus manos. La obra SurviveJS está formada por dos libros que te ayudan a adoptar ambas tecnologías. Están disponibles como [un conjunto](https://leanpub.com/b/survivejs-webpack-react).
 
 <p>
   ![React book cover|255|329|front-cover](assets/img/react_title_page_small.png)
 
-  **SurviveJS - React** shows you how to build a simple [Kanban](https://en.wikipedia.org/wiki/Kanban_%28development%29). The idea is that if you can build a simple application, you can probably build something more complex after that. The first application is always the hardest.
+  **SurviveJS - React** te muestra cómo hacer un [Kanban](https://en.wikipedia.org/wiki/Kanban_%28development%29) sencillo. La idea es que si eres capaz de construir una aplicación sencilla, seguramente puedas contruir algo más complejo después. La primera aplicación es siempre la más difícil.
 </p>
 
-In addition to fundamental React knowledge, you will pick up design techniques as you develop a kanban application step by step and learn to understand it in detail.
+Como añadido al conocimiento base de React que adquirirás, también aprenderás técnicas de diseño a medida que vas desarrollando paso a paso los detalles del tablón de kanban.
 
-While implementing the Kanban step by step, you will pick up basic ideas of how to compose your application, how to manage data related concerns, how to style your application, how to implement drag and drop. Those are just few topics of the many covered.
+A medida que vayas implementando el Kanban irás recogiendo ideas acerca de cómo componer tu apliación, cómo gestionar todo aquello relacionado con la gestión de los datos, cómo aplicar estilos en tu aplicación, o cómo implementar la funcionalidad de arrastrar y soltar. Todos estos son sólo algunos de los asuntos cubiertos.
 
-Once you have completed the project, you will end up with something like this:
+Una vez completed en proyecto tendrás algo como lo siguiente:
 
 ![Kanban animation|594|279|kanban-animation](assets/img/kanban.gif)
 
-Even though the application looks simple, it's complex enough to illustrate potential problems such as reference handling.
+Aunque la aplicación parezca sencilla es lo suficientemente compleja como para que te enfrentes a problemas potenciales como la gestión de referencias.
 
-The React book is based on a [boilerplate](https://github.com/survivejs/react-boilerplate). If you want to understand the techniques used in the boilerplate itself, check out the webpack book above.
+El libro de React se apoya en [ciertas comodidades](https://github.com/survivejs/react-boilerplate). Si quieres conocer las ténicas usadas en estas comodidades hecha un vistazo al libro de webpack.
 
-Even if you know React well already, there might be handy ideas to pick up. The book effort started early 2015 and has seen steady releases since. Each release has improved the book somehow as the React ecosystem keeps on changing.
+Puede que aprendas cosas nuevas incluso si ya sabes algo de React. La escritura del libro comenzó a principios de 2015 y se han liberado distintas versiones de forma constante desde entonces. Cada evrsión ha mejorado en algo el libro a medida que el ecosistema de React ha ido cambiando.
 
-### Getting the Book
+### Cómo conseguir el libro
 
-Just as with the webpack book, you can find a [free online edition](/react/introduction) that contains most of the content. If you like the book, [purchase the digital edition](https://leanpub.com/survivejs-react). You can also [check out the project at GitHub](https://github.com/survivejs/react). GitHub contains the associated source and a way for you to send feedback. I am also available through [Gitter chat](https://gitter.im/survivejs/react) if you have more direct questions.
+Al igual que con el libro de webpack, puedes encontrar una [edición online gratuita](/react/introduction)  que contiene la mayor parte del contenido. Si te gusta el libro, [compra la versión digital](https://leanpub.com/survivejs-react-es). También puedes [descargar el proyecto desde GitHub](https://github.com/survivejs/react). GitHub contiene el código asociado al libro y es una forma de enviar feedback. También estoy disponible a través del [chat de Gitter](https://gitter.im/survivejs/react) por si tienes preguntas más directas.
 
 <p>
-<a class='btn btn--normal btn--buy' href='https://leanpub.com/survivejs-react'>Buy at Leanpub</a>
+<a class='btn btn--normal btn--buy' href='https://leanpub.com/survivejs-react-es'>Comprar en Leanpub</a>
 </p>
 
-You can support creation of new content by [purchasing a digital copy of the book](https://leanpub.com/survivejs-react). If you want something more personal ([training](https://survivejs.github.io/training/), consulting), contact me personally and I'll see what I can do.
+Puedes dar soporte a la creación de nuevos contenidos [comprando una copia digital del libro](https://leanpub.com/survivejs-react-es). Si necesitas algo más cercano ([formación](https://survivejs.github.io/training/), consultoría), contacta conmigo personalmente y veré qué puedo hacer.
 
-> If you get stuck, remember to check out the [Gitter chat](https://gitter.im/survivejs/react).
+> Si te quedas atascado, recuerda que puedes usar el [chat de Gitter](https://gitter.im/survivejs/react).
 
-## About the Author
+## Sobre el autor
 
 <p>
 ![Author photo|100|100|author-photo](https://www.gravatar.com/avatar/b26ec3c2769168c2cbc64cc3df9cdd9c?s=200)
 
-Juho Vepsäläinen is behind the SurviveJS effort. In addition to being a core developer of webpack, he has been active in the open source scene since the early 2000s. Blue Arrow Awards winner.
+Juho Vepsäläinen está detrás del esfuerzo de SurviveJS. Aparte de ser uno de los desarrolladores principales de webpack, ha estado en activo en la comunidad de software libre desde comienzos de 2000. Ganador de Blue Arrow Awards.
 </p>
 
 * [@bebraw](https://twitter.com/bebraw)
-* [Personal blog](http://nixtu.info)
+* [Blog personal](http://nixtu.info)
 * [GitHub](https://github.com/bebraw)

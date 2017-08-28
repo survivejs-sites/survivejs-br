@@ -18,15 +18,15 @@ const navigationPages = sectionName => [
     url: "/"
   },
   {
-    title: sectionName === "blog" ? "Read the webpack book" : "Read the blog",
+    title: sectionName === "blog" ? "Leer el libro de webpack" : "Leer el blog",
     url: sectionName === "blog" ? "/webpack/foreword/" : "/blog/"
   },
   {
-    title: "Get training",
+    title: "Formación",
     url: "/training/"
   },
   {
-    title: "Buy the ebook",
+    title: "Compra el ebook",
     url:
       sectionName === "webpack"
         ? "https://leanpub.com/survivejs-webpack"

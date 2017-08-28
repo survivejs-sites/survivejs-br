@@ -11,9 +11,9 @@ const SiteIndex = ({ section }) =>
             <span className="second">JS</span>
           </div>
 
-          <h1 className="front-header">Learn React</h1>
+          <h1 className="front-header">Aprende React</h1>
           <h3 className="front-motto">
-            SurviveJS will take you from apprentice to master
+            SurviveJS te convierte de aprendiz a maestro
           </h3>
 
           <div className="front-button-wrapper">
@@ -21,14 +21,14 @@ const SiteIndex = ({ section }) =>
               className="btn btn--buy-main"
               href="https://leanpub.com/survivejs-react-es"
             >
-              Become a React master
+              Conviértete en un maestro de React
             </a>
           </div>
 
           <div className="front-button-wrapper">
             <span className="read-free">
               <a href="/react/introduction/">
-                Read the free version of the React book
+                Lee la versión gratuita del libro de React
               </a>
             </span>
           </div>
@@ -48,6 +48,6 @@ const SiteIndex = ({ section }) =>
     </div>
   </div>;
 SiteIndex.description =
-  "Want to learn React? Get started for free and build a Kanban board by following the example project.";
+  "¿Quieres aprender React? Comienza gratis y construye un tablero de Kanban siguiendo el proyecto de ejemplo.";
 
 export default SiteIndex;

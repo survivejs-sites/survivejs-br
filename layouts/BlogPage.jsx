@@ -29,9 +29,9 @@ const BlogPage = ({
   let postAuthor = author || (config.blog && config.blog.author);
   const relatedPosts = getRelatedPosts(keywords, section.pages(), 10);
   const relatedHeaders = {
-    interview: "Interviews",
-    opinion: "Opinions",
-    publishing: "Publishing thoughts"
+    interview: "Entrevistas",
+    opinion: "Opiniones",
+    publishing: "Publicaciones"
   };
 
   if (_.isFunction(postAuthor)) {
@@ -76,8 +76,8 @@ const BlogPage = ({
           <PrevNext
             previous={previous}
             next={next}
-            previousText="Previous post"
-            nextText="Next post"
+            previousText="Entrada anterior"
+            nextText="Próxima entrada"
             getTitle={page => page.file.attributes.title}
           />
 

@@ -3,7 +3,7 @@ import { Link } from "@survivejs/components";
 
 const BookIndex = ({ section }) =>
   <div className="grid">
-    <h1>Table of Contents</h1>
+    <h1>Índice</h1>
 
     <ul className="post-list">
       {section

@@ -55,7 +55,7 @@ const BookPage = ({
 
       <input id="search" />
 
-      <h4 className="toc-nav--header">Table of Contents</h4>
+      <h4 className="toc-nav--header">Índice</h4>
 
       <Toc sectionPages={section.pages} title={title} />
 
@@ -80,33 +80,33 @@ const BookPage = ({
         <PrevNext
           previous={previous}
           next={next}
-          previousText="Previous chapter"
-          nextText="Next chapter"
+          previousText="Capítulo anterior"
+          nextText="Pŕoximo capítulo"
           getTitle={page => page.file.attributes.title}
         />
 
         <blockquote className="tip">
           {section.name === "webpack"
             ? <p>
-                This book is available through{" "}
+                Puedes encontrar este libro en{" "}
                 <a href="https://leanpub.com/survivejs-webpack">
                   Leanpub (digital)
                 </a>,{" "}
                 <a href="https://www.amazon.com/dp/9526868803">
-                  Amazon (paperback)
+                  Amazon (papel)
                 </a>, and{" "}
                 <a href="https://www.amazon.com/dp/B06XWZZGBS">
                   Kindle (digital)
-                </a>. By purchasing the book you support the development of
-                further content. A part of profit (~30%) goes to Tobias Koppers,
-                the author of webpack.
+                </a>. Comprando este libro permitirás el desarrollo de
+                más contenido. Una parte de los beneficios (~30%) van para Tobias Koppers,
+                el autor de webpack.
               </p>
             : <p>
-                This book is{" "}
+                Puedes encontrar este libro en{" "}
                 <a href="https://leanpub.com/survivejs-react">
-                  available through Leanpub
-                </a>. By purchasing the book you support the development of
-                further content.
+                  Leanpub
+                </a>. Comprando este libro permitirás el desarrollo de
+                más contenido.
               </p>}
         </blockquote>
 

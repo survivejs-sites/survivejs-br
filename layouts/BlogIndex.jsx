@@ -4,7 +4,7 @@ import { Link, Moment } from "@survivejs/components";
 
 const BlogIndex = ({ section }) =>
   <div className="grid">
-    <h1>Blog Posts</h1>
+    <h1>Entradas del Blog</h1>
 
     <ul className="post-list">
       {_.map(section.pages(), (page, i) =>
