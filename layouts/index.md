@@ -16,9 +16,9 @@ Combinado con [webpack](https://webpack.github.io/), una herramienta de empaquet
 
 Como añadido al conocimiento base de React que adquirirás, también aprenderás técnicas de diseño a medida que vas desarrollando paso a paso los detalles del tablón de kanban.
 
-A medida que vayas implementando el Kanban irás recogiendo ideas acerca de cómo componer tu apliación, cómo gestionar todo aquello relacionado con la gestión de los datos, cómo aplicar estilos en tu aplicación, o cómo implementar la funcionalidad de arrastrar y soltar. Todos estos son sólo algunos de los asuntos cubiertos.
+A medida que vayas implementando tu kanban irás recogiendo ideas acerca de cómo componer tu aplicación, cómo manejar todo lo relacionado con la gestión de los datos, cómo aplicar estilos en tu aplicación, o cómo implementar la funcionalidad de arrastrar y soltar. Todos estos son sólo algunos de los temas tratados.
 
-Una vez completed en proyecto tendrás algo como lo siguiente:
+Una vez completado el proyecto tendrás algo como lo siguiente:
 
 ![Kanban animation|594|279|kanban-animation](assets/img/kanban.gif)
 
@@ -26,7 +26,7 @@ Aunque la aplicación parezca sencilla es lo suficientemente compleja como para 
 
 El libro de React se apoya en [ciertas comodidades](https://github.com/survivejs/react-boilerplate). Si quieres conocer las ténicas usadas en estas comodidades hecha un vistazo al libro de webpack.
 
-Puede que aprendas cosas nuevas incluso si ya sabes algo de React. La escritura del libro comenzó a principios de 2015 y se han liberado distintas versiones de forma constante desde entonces. Cada evrsión ha mejorado en algo el libro a medida que el ecosistema de React ha ido cambiando.
+Puede que aprendas cosas nuevas incluso si ya sabes algo de React. La escritura del libro comenzó a principios de 2015 y se han liberado distintas versiones de forma constante desde entonces. Cada versión ha mejorado en algo el libro a medida que el ecosistema de React ha ido cambiando.
 
 ### Cómo conseguir el libro
 
@@ -45,7 +45,7 @@ Puedes dar soporte a la creación de nuevos contenidos [comprando una copia digi
 <p>
 ![Author photo|100|100|author-photo](https://www.gravatar.com/avatar/b26ec3c2769168c2cbc64cc3df9cdd9c?s=200)
 
-Juho Vepsäläinen está detrás del esfuerzo de SurviveJS. Aparte de ser uno de los desarrolladores principales de webpack, ha estado en activo en la comunidad de software libre desde comienzos de 2000. Ganador de Blue Arrow Awards.
+Juho Vepsäläinen está detrás del esfuerzo de SurviveJS. Aparte de ser uno de los desarrolladores principales de webpack, ha estado en activo en la comunidad de software libre desde comienzos de 2000. Ganador del premio Blue Arrow.
 </p>
 
 * [@bebraw](https://twitter.com/bebraw)
