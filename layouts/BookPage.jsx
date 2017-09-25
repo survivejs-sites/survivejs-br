@@ -2,8 +2,6 @@ import React from "react";
 
 import {
   Disqus,
-  Buy,
-  LatestPost,
   Meta,
   PrevNext,
   PrevNextMini,
@@ -30,25 +28,25 @@ const BookPage = ({
     type
   },
   section
-}) =>
+}) => (
   <div className="chapter__wrapper">
-    {headerImage &&
+    {headerImage && (
       <div
         className="header-image"
         style={{
           backgroundImage: `url(${headerImage})`
         }}
-      />}
+      />
+    )}
 
-    <h1 className="post__heading">
-      {title}
-    </h1>
+    <h1 className="post__heading">{title}</h1>
 
-    {headerExtra &&
+    {headerExtra && (
       <div
         className="header-extra"
         dangerouslySetInnerHTML={{ __html: headerExtra }}
-      />}
+      />
+    )}
 
     <div className="toc-nav__wrapper">
       <h4 className="search-nav--header">Search</h4>
@@ -60,14 +58,10 @@ const BookPage = ({
       <Toc sectionPages={section.pages} title={title} />
 
       <Resources resources={resources} />
-
-      <Buy sectionName={section.name} />
     </div>
 
     <div className="chapter">
       <div className="post__content">
-        <LatestPost section={section} />
-
         <Meta demo={demo} endSource={endSource} />
 
         <div
@@ -86,28 +80,27 @@ const BookPage = ({
         />
 
         <blockquote className="tip">
-          {section.name === "webpack"
-            ? <p>
-                Puedes encontrar este libro en{" "}
-                <a href="https://leanpub.com/survivejs-webpack">
-                  Leanpub (digital)
-                </a>,{" "}
-                <a href="https://www.amazon.com/dp/9526868803">
-                  Amazon (papel)
-                </a>, and{" "}
-                <a href="https://www.amazon.com/dp/B06XWZZGBS">
-                  Kindle (digital)
-                </a>. Comprando este libro permitirás el desarrollo de
-                más contenido. Una parte de los beneficios (~30%) van para Tobias Koppers,
-                el autor de webpack.
-              </p>
-            : <p>
-                Puedes encontrar este libro en{" "}
-                <a href="https://leanpub.com/survivejs-react">
-                  Leanpub
-                </a>. Comprando este libro permitirás el desarrollo de
-                más contenido.
-              </p>}
+          {section.name === "webpack" ? (
+            <p>
+              Puedes encontrar este libro en{" "}
+              <a href="https://leanpub.com/survivejs-webpack">
+                Leanpub (digital)
+              </a>,{" "}
+              <a href="https://www.amazon.com/dp/9526868803">Amazon (papel)</a>,
+              and{" "}
+              <a href="https://www.amazon.com/dp/B06XWZZGBS">
+                Kindle (digital)
+              </a>. Comprando este libro permitirás el desarrollo de más
+              contenido. Una parte de los beneficios (~30%) van para Tobias
+              Koppers, el autor de webpack.
+            </p>
+          ) : (
+            <p>
+              Puedes encontrar este libro en{" "}
+              <a href="https://leanpub.com/survivejs-react">Leanpub</a>.
+              Comprando este libro permitirás el desarrollo de más contenido.
+            </p>
+          )}
         </blockquote>
 
         <div id="disqus_thread" />
@@ -121,6 +114,7 @@ const BookPage = ({
     />
 
     <Disqus shortname="survivejs" />
-  </div>;
+  </div>
+);
 
 export default BookPage;

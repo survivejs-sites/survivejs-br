@@ -13,16 +13,7 @@ module.exports = () => ({
   paths: {
     "/": {
       content: () => require.context("./pages", true, /^\.\/.*\.md$/),
-      index: () => require("./layouts/SiteIndex").default,
-      paths: {
-        blog: {
-          index: () => require("./layouts/BlogIndex").default,
-          layout: () => require("./layouts/BlogPage").default,
-          transform: pages =>
-            generateAdjacent(_.sortBy(pages, "date")).reverse(),
-          url: ({ fileName }) => `/${clean.chapterName(fileName)}/`
-        }
-      }
+      index: () => require("./layouts/SiteIndex").default
     },
     react: {
       content: () =>

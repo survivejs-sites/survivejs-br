@@ -1,7 +1,7 @@
 import React from "react";
-import { LatestPost, SocialLinks } from "@survivejs/components";
+import { SocialLinks } from "@survivejs/components";
 
-const SiteIndex = ({ section }) =>
+const SiteIndex = ({ section }) => (
   <div className="frontpage">
     <div className="front__heading">
       <div className="front-heading-content-wrapper">
@@ -38,15 +38,13 @@ const SiteIndex = ({ section }) =>
 
     <div className="post post--front">
       <section className="post__content">
-        <LatestPost section={section} />
         <div dangerouslySetInnerHTML={{ __html: require("./index.md").body }} />
 
         <SocialLinks />
-
-        <LatestPost section={section} />
       </section>
     </div>
-  </div>;
+  </div>
+);
 SiteIndex.description =
   "¿Quieres aprender React? Comienza gratis y construye un tablero de Kanban siguiendo el proyecto de ejemplo.";
 
