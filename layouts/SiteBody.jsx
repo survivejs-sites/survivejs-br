@@ -4,7 +4,7 @@ import {
   GitterChat,
   Feedback,
   Footer,
-  Navigation
+  Navigation,
 } from "@survivejs/components";
 
 import "../styles/custom.scss";
@@ -15,31 +15,31 @@ import "../styles/fontello-embedded.css";
 const navigationPages = sectionName => [
   {
     title: "Home",
-    url: "/"
+    url: "/",
   },
   {
     title: sectionName === "blog" ? "Leer el libro de webpack" : "Leer el blog",
-    url: sectionName === "blog" ? "/webpack/foreword/" : "/blog/"
+    url: sectionName === "blog" ? "/webpack/foreword/" : "/blog/",
   },
   {
     title: "Formación",
-    url: "/training/"
+    url: "/training/",
   },
   {
     title: "Compra el ebook",
     url:
       sectionName === "webpack"
         ? "https://leanpub.com/survivejs-webpack"
-        : "https://leanpub.com/survivejs-react"
+        : "https://leanpub.com/survivejs-react",
   },
   {
     title: "",
-    url: ""
+    url: "",
   },
   {
     title: "@survivejs",
-    url: "https://twitter.com/survivejs"
-  }
+    url: "https://twitter.com/survivejs",
+  },
 ];
 
 const SiteBody = ({ children, section, location: { pathname } }) => (

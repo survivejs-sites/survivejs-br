@@ -12,7 +12,9 @@ module.exports = function markdown() {
     const height = textParts[2] || "";
     const className = textParts[3] || "";
 
-    return `<img src="__IMG_START__${href}__IMG_END__" alt="${alt}" class="${className}" width="${width}" height="${height}" />`;
+    return `<img src="__IMG_START__${href}__IMG_END__" alt="${alt}" class="${
+      className
+    }" width="${width}" height="${height}" />`;
   };
 
   // patch ids (this.options.headerPrefix can be undefined!)
@@ -57,7 +59,7 @@ module.exports = function markdown() {
         smartypants: false,
         headerPrefix: "",
         renderer,
-        xhtml: false
+        xhtml: false,
       };
 
       return marked.parser(parse.quotes(content), markedDefaults);
@@ -73,8 +75,8 @@ module.exports = function markdown() {
           id: chunk.text
             .toLowerCase()
             .replace(/`/g, "")
-            .replace(/[^\w]+/g, "-")
+            .replace(/[^\w]+/g, "-"),
         }));
-    }
+    },
   };
 };

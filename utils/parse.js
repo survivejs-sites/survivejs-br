@@ -32,9 +32,9 @@ function parseCustomQuote(token, match, className) {
 
       return {
         type: "html",
-        text: `<blockquote class="${className}"><i class="${icon}"></i>${text
-          .slice(2)
-          .trim()}</blockquote>`
+        text: `<blockquote class="${className}"><i class="${
+          icon
+        }"></i>${text.slice(2).trim()}</blockquote>`,
       };
     }
   }
@@ -49,14 +49,14 @@ function parseTitle(body) {
   if (lines[0].indexOf("#") === 0 && lines[0][1] === " ") {
     return {
       title: removeMarkdown(lines[0]),
-      body: lines.slice(1).join("\n")
+      body: lines.slice(1).join("\n"),
     };
   }
 
   if (lines[0].indexOf("-#") === 0) {
     return {
       title: removeMarkdown(lines[0].slice(2).trim()),
-      body: lines.slice(1).join("\n")
+      body: lines.slice(1).join("\n"),
     };
   }
 
@@ -73,7 +73,9 @@ function parseHeader(resourcePath) {
 
   if (header) {
     if (header.source && header.author && header.license) {
-      ret.headerExtra = `<a href="${header.source}">${header.author} (${header.license})</a>`;
+      ret.headerExtra = `<a href="${header.source}">${header.author} (${
+        header.license
+      })</a>`;
     } else if (header.license) {
       ret.headerExtra = header.license;
     }
