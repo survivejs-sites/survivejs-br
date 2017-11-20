@@ -28,7 +28,7 @@
   "homepage": "https://github.com/survivejs-sites/template#readme",
   "dependencies": {
     "@survivejs/components": "0.0.5",
-    "antwar": "^0.19.0",
+    "antwar": "^0.19.2",
     "front-matter": "^2.2.0",
     "loader-utils": "^1.1.0",
     "lodash": "^4.17.4",

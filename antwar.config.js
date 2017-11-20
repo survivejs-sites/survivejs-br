@@ -6,15 +6,12 @@ const clean = require("./utils/clean");
 module.exports = () => ({
   template: {
     title: "SurviveJS",
-    file: path.resolve(__dirname, "templates/page.ejs")
+    file: path.resolve(__dirname, "templates/page.ejs"),
   },
   output: "build",
   layout: () => require("./layouts/SiteBody").default,
   paths: {
-    "/": {
-      content: () => require.context("./pages", true, /^\.\/.*\.md$/),
-      index: () => require("./layouts/SiteIndex").default
-    },
+    "/": () => require("./layouts/SiteIndex").default,
     react: {
       content: () =>
         require.context("./books/react-book/manuscript", true, /^\.\/.*\.md$/),
@@ -36,7 +33,7 @@ module.exports = () => ({
             })
         ),
       url: ({ sectionName, fileName }) =>
-        `/${sectionName}/${clean.chapterName(fileName)}/`
-    }
-  }
+        `/${sectionName}/${clean.chapterName(fileName)}/`,
+    },
+  },
 });
